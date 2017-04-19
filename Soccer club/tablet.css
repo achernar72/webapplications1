@@ -1,0 +1,90 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+body img {
+    
+    width:30%;
+    position: center;
+    margin-left: 850px;
+    background-color: #808080;
+    
+}
+body{
+     background-color: #f72f04;
+}
+
+.us{margin-left:-850px;
+}
+.bc{margin-left:-850px;}
+.me{margin-left:-850px;}
+.ag{margin-left:-850px;}
+.am{margin-left:-850px;}
+.br{margin-left:-850px;}
+
+
+footer { background-color: #D2B48C;
+       font-size: small;
+	   font-style: italic;
+	   text-align: center;
+	   padding-bottom: 10px;
+	   border-top: 2px #221811 solid;
+
+}
+form {
+      /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+    background-color: antiquewhite;
+
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
